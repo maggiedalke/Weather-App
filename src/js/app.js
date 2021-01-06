@@ -60,7 +60,7 @@ function createHTMLCurrentForecast(currentWeather) {
         <h2>Current Conditions</h2>
         <img
           class="condition-icon"
-          src="http://openweathermap.org/img/wn/${currentWeather.weather[0].icon}@2x.png"
+          src="https://openweathermap.org/img/wn/${currentWeather.weather[0].icon}@2x.png"
         />
         <div class="current">
           <div class="temp">${temp}℃</div>
@@ -95,7 +95,7 @@ function createDayForecast(dayWeatherArray) {
           <h3 class="forecast-day">${weekday}</h3>
           <img
             class="condition-icon"
-            src="http://openweathermap.org/img/wn/${forecastIcon}@2x.png"
+            src="https://openweathermap.org/img/wn/${forecastIcon}@2x.png"
           />
           <div class="description">${forecastDescription}</div>
           <div class="temp">
