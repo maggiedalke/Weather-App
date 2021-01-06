@@ -17,7 +17,7 @@ navigator.geolocation.getCurrentPosition((position) => {
 // API CALLS
 async function getFiveDayForecast(latitude, longitude) {
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
   );
   const resp = await response.json();
 
@@ -42,7 +42,7 @@ async function getFiveDayForecast(latitude, longitude) {
 
 async function getCurrentWeather(latitude, longitude) {
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
+    `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
   );
   const resp = await response.json();
 
