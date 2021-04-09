@@ -12,3 +12,6 @@ I chose a single time everyday that will be used as the condition for the day. W
 I got the weather icons provided by the API; you can read more about it [here](https://openweathermap.org/weather-conditions).
 
 All temperatures are provided in Kelvin by default Which required me to pass a parameter to the endpoint to request a different temperature unit. 
+
+## How to Use
+You only need to allow your browser to access your location to use this app. The app will then do the rest, displaying the weather in your area.
